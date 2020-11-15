@@ -1,0 +1,20 @@
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="10" offset="1" class="main">
+        <ion-icon name="mic-outline"></ion-icon>
+        <h3>User Registration</h3>
+        <ion-input type="text" placeholder="Full Name"></ion-input>
+        <ion-input type="email" placeholder="Email Address"></ion-input>
+
+
+        <ion-input type="text" placeholder="Username"></ion-input>
+        <ion-input type="password" placeholder="Password"></ion-input>
+        <ion-router-link href="/login"><ion-button expand="block">Register</ion-button></ion-router-link>
+        <p>Already have an account? <ion-router-link href="/login">Login</ion-router-link></p>
+        <!-- <ion-router-link href="/register"><ion-button expand="block">Register</ion-button></ion-router-link> -->
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,33 @@
+.background{
+    background: #14274E;
+    h3{
+        font-weight: bold;
+        text-align: left;
+        color:#fff;
+      }
+      ion-icon{
+        font-size: 20px;
+        color: #fff;
+        margin: 0 auto !important;
+      }
+  }
+  ion-router-link{
+    font-weight: bold;
+    color: #14274E;
+}
+.category{
+    ion-icon{
+        font-size: 50px;
+    }
+}
+.cat{
+    .channel{
+        color:#14274E;
+        font-weight: bold;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #14274E;
+    }
+    hr{
+        --border: 2px solid red !important;
+    }
+}
